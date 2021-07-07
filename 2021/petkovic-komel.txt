@@ -1,0 +1,5 @@
+When designing a type theory one often faces a dilemma: terms annotated with full typing information have good meta-theoretic properties and are amenable to algorithmic processing, whereas more economic terms that omit typing information are less verbose and usable in practice. One common resolution is to design two type theories, an economic one and a fully annotated one, and show that the former can be *elaborated* to the latter, i.e., that the missing information can be recovered.
+
+In this talk I shall discuss progress towards obtaining a general meta-theorem which lays the foundation for the elaboration technique. The theorem states that, given a type theory $T$ which is possibly type-theoretically quite ill-behaved, there is a much better-behaved "standard" type theory $S$ and a type-theoretic transformation $q : S \to T$ which is conservative and surjective on derivable judgements. The usual elaboration algorithms can be seen as providing computational evidence of surjectivity of $q$.
+
+j.w.w. Andrej Bauer
