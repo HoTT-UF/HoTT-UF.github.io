@@ -1,0 +1,8 @@
+Directed type theory is an analogue of homotopy type theory where types represent
+categories, generalizing groupoids. In our prior work, we defined a constructive
+model of directed type theory in bicubical sets. For this talk, I will describe our
+current work in progress in which we extend this generalization to inductive
+types: Just as higher inductive types allow one to inductively define types using
+path constructors, directed higher inductive types will additionally allow one to do
+so using morphism constructors. (joint work with Dan Licata)
+
