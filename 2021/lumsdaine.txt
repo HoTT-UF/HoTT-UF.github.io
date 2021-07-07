@@ -1,0 +1,5 @@
+*Categories with attributes* (or equivalent structures such as CwF’s) and *comprehension categories* are two key notions in the categorical analysis of type theories and their models.  Together they straddle the gap between strict syntax-like structures, and weaker structures that arise naturally in categorical models.
+
+Since the introduction of comprehension by Jacobs, most authors (including myself!) have identified CwA’s with *full, split* comprehension categories.  I will argue that this is a mistake: that for most purposes, it is more natural and fruitful to identify CwA’s with *discrete* comprehension categories instead, and that clarifies several aspects of the picture, especially the 2-categories of such structures.
+
+This talk will, therefore, be a mildly polemical overview of categorical structures for type theory, and their categorical and 2-categorical properties.
