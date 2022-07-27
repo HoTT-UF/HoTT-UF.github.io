@@ -1,0 +1,13 @@
+Title: The (∞,1)-category of Types
+
+Abstract:
+A major outstanding difficulty in Homotopy Type Theory is the
+description of coherent higher algebraic structures.  As an example,
+we know that the algebraic structure possessed by the collection of
+types and functions between them is *not* a traditional 1-category,
+but rather an (∞,1)-category.  In this talk, I will describe how the
+addition of a finite collection additional definitional equalities
+designed to render the notion of "opetopic type" definable in fact
+allows one to construct the (∞,1)-category structure on the universe
+of types.
+
