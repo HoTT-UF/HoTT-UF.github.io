@@ -1,0 +1,5 @@
+Title: Internal languages of diagrams of ∞-toposes
+
+Abstract:
+Homotopy type theory (HoTT) is a handy language for reasoning about an ∞-topos. However, sometimes we have more than one ∞-toposes related to each other by some functors, in which case plain HoTT is not sufficiently rich because the actions of the functors are not internalized.
+In this talk, we consider a certain class of diagrams of ∞-toposes for which plain HoTT remains a sufficiently rich internal language. We show that a special form of an inverse diagram of ∞-toposes is reconstructed internally to its oplax limit via lex modalities. Then plain HoTT as an internal language of the oplax limit can be used for reasoning about the original diagram.
