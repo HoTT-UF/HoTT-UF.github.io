@@ -1,0 +1,4 @@
+Title: Towards Syllepsis for Syllepsis: Higher Coherences in Homotopy Type Theory
+
+Abstract:
+It is well-known that in homotopy type theory one can prove the Eckmann-Hilton theorem: any two loops p and q on reflexivity commute. If we go one dimension higher, that is, if p and q are loops on iterated reflexivity, a property known as syllepsis also holds: the Eckmann-Hilton proof for q and p is the inverse of the Eckmann-Hilton proof for p and q. We revisit the original HoTT proof of syllepsis and present it in a more conceptual way that avoids the explicit use of (too much) path algebra. This approach allows us to go further and prove higher coherences \emph{about} the proof of syllepsis itself - ultimately leading to syllepsis for syllepsis.
