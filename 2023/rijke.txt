@@ -1,0 +1,11 @@
+Title: Enriched graphs with applications to organic chemistry and trees
+
+Abstract: When you define a concept in univalent mathematics, you do so by defining the type of all objects in that concept.
+Furthermore, the univalence axiom can then be used to characterize the identity types of objects in that concept.
+In univalent combinatorics we seek to take advantage of the univalence axiom in order to count combinatorial objects up to isomorphism.
+Sometimes, however, we want to break symmetries. For example, while a carbon atom in 3-space has four free electrons,
+its symmetry group is not the 4th symmetric group but it is the 4-th alternating group. In this talk I will present the notion
+of enriched undirected graphs, where graphs are enriched with further structure that can be used to break the symmetries of odd sign on a carbon atom.
+I will show how the notion of enriched undirected graphs can be used to define the type of hydrocarbons in univalent mathematics.
+The same idea of enrichment can be used to directed graphs
+and we will show that elements of W-types are precisely such enriched trees.
