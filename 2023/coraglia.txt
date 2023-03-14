@@ -1,0 +1,8 @@
+Title: We recall different fibrational models of type theoretic comprehension and compare them. We recover some well known structures and,
+in particular, that underlying weakening and contraction there is a comonad. We then carefully combine the 2-dimensional aspects of comonads,
+and those of fibrations, and present a comprehensive result connecting the two.
+
+Abstract: We end up having a wide overview of such models and, notably, of how they are related. With this, we reboot a classical result in fibrational
+first order logic, namely that set-based models are into a 1-to-1 correspondence with morphism of doctrines from the "syntactic" doctrine
+into that of sets: we translate this idea in the context of this new 2-category, and describe simplicial-set-based models of dependent types
+as particular 1-cells.
