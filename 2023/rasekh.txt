@@ -1,0 +1,7 @@
+Speaker: Nima Rasekh
+
+Title: Higher Topoi as Internal Higher Categories
+
+Abstract: Algebraic topological concepts were originally developed using topological spaces in the context of classical mathematics. In recent years a variety of results, including various homotopy group computations or Blakers-Massey theorem, have been generalized using both homotopy type theories and higher topoi, in an area of study we now call synthetic algebraic topology.
+
+Ideally we would hope to generalize a wide range of algebraic topological concepts in the synthetic setting, however, many of them require much more advanced categorical structures, which do not hold in a general higher topos. In this talk I will argue that this challenge arises from a mismatch between the inner workings of higher topoi and higher categories, as higher categories are by definition internal to spaces, Moreover, I discuss possible paths towards a solution by internalizing higher topoi in themselves.
