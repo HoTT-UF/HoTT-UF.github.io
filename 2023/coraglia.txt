@@ -1,3 +1,5 @@
+Speaker: Greta Coraglia
+
 Title: A 2-dimensional analysis of comprehension
 
 Abstract: We recall different fibrational models of type theoretic comprehension and compare them. We recover some well known structures and,
