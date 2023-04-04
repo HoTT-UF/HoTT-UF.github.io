@@ -1,3 +1,5 @@
+Speaker: Egbert Rijke
+
 Title: Enriched graphs with applications to organic chemistry and trees
 
 Abstract: When you define a concept in univalent mathematics, you do so by defining the type of all objects in that concept.
