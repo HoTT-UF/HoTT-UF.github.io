@@ -1,0 +1,8 @@
+# Speaker
+Mathieu Anel
+
+# Title
+Choice axiom and Postnikov completeness
+
+# Abstract
+I will introduce homotopical variants of the axioms of countable and dependent choice that can hold in infinity-topoi and use them to give criteria for the convergence of Postnikov towers. (This is a joint work with Reid Barton.)
