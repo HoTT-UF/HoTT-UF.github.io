@@ -1,0 +1,16 @@
+# Speaker
+Matthias Hutzler
+
+# Title
+Projective Space and Line Bundles in Synthetic Algebraic Geometry
+
+# Abstract
+Synthetic algebraic geometry interprets HoTT as internal language for (a higher
+topos version of) the Zariski topos. This means that schemes such as projective
+space appear simply as certain h-sets without any added structure. In the talk
+we present a synthetic version of the classical classification result for line
+bundles on projective space. The language of HoTT allows us to give a stronger
+variant of the classical statement, describing the 1-type of line bundles
+instead of its set-truncation, the Picard group. This is used to give a proof
+that requires nontrivial algebraic arguments only for the case of the projective
+line, and derives the general case by an interpolation argument.
