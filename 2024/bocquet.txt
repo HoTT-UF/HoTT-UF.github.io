@@ -1,0 +1,5 @@
+# Speaker
+Rafaël Bocquet
+
+# Title
+Strict Rezk completions of models of type theory
