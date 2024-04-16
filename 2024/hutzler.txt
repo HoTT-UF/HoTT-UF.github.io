@@ -5,6 +5,7 @@ Matthias Hutzler
 Projective Space and Line Bundles in Synthetic Algebraic Geometry
 
 # Abstract
+
 Synthetic algebraic geometry interprets HoTT as internal language for (a higher
 topos version of) the Zariski topos. This means that schemes such as projective
 space appear simply as certain h-sets without any added structure. In the talk

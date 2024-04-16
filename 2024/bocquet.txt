@@ -3,3 +3,25 @@ Rafaël Bocquet
 
 # Title
 Strict Rezk completions of models of type theory
+
+# Abstract
+
+In this talk I'll present the main ideas of my new proof of homotopy canonicity
+for HoTT (see arXiv:2311.05849).
+
+Constructive models of HoTT, such as cubical set models, provide a computational
+interpretation of the univalence axiom. Homotopy canonicity, originally
+conjectured by Voevodsky, implies that the computational content of univalence
+can already be observed in the syntax.
+
+Canonicity results are usually proven using a sconing construction, gluing
+together the syntax and a semantic model. For homotopy canonicity, the semantic
+model should be a model of HoTT, say cubical sets. To carry out the sconing
+construction, the components of the base model should also be cubical sets with
+the correct higher dimensional structure. However the components of the syntax
+are only sets, which can be seen as discrete cubical sets, with the "wrong"
+higher dimensional structure.
+
+This can be solved by constructing the "strict Rezk completion" of the syntax,
+which is an equivalent model with the correct higher dimensional
+structure. Strict Rezk completions can be constructed in cartesian cubical sets.
