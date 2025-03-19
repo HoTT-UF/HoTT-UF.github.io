@@ -44,44 +44,123 @@
     to or cannot travel.
     </p>
 
-    <h2>Submissions</h2>
-
-    <p>Submissions should consist of a title and an abstract of no more than 2
-    pages (not counting the list of references) in pdf format,
-    via <a href="https://easychair.org/conferences/?conf=hottuf2025">EasyChair</a>.
-    </p>
-
-    <ul>
-      <li> Abstract submission deadline: <b>7 February 2025</b> </li>
-      <li> Author notification: <b>10 March 2025</b> </li>
-    </ul>
-
-    <p>Considering the broad background of the expected audience, we encourage
-       authors to include information of pedagogical value in their abstract,
-       such as motivation and context of their work.
-    </p>
-
     <h2>Registration</h2>
     <p>Please register by filling out
       this <a href="https://docs.google.com/forms/d/1gdjtFWQwLNKtK1hRpLsmjKO_kTSg0-J9N2Ndfjmc-78/">form</a>.
       Registration is mandatory (also if you're attending online only).
       Registration deadline: <b>28 March 2025 (AoE)</b>.</p>
 
-    <p><b>If you require funding, we encourage you to apply to EuroProofNet</b> via
-      the <a href="https://europroofnet.github.io/wg6-genoa/">WG6
-      registration</a> before the deadline of <b>4 March 2025</b>.  There is no
-      need to await the HoTT/UF author notification.
-    </p>
-
     <h2>Invited speakers</h2>
     <ul class="talklist">
+      <li><b>Reid Barton</b> (Carnegie Mellon University, USA): TBA
       </li>
-      <li><b>Reid Barton</b> (Carnegie Mellon University, USA)
+      <li><b>Bastiaan Cnossen</b> (University of Regensburg, Germany) <br>
+        <b>Axiomatization of ∞-categories</b>
+<p>I'll discuss our proposed axiomatization of synthetic categories that allows to develop most of (∞-)category theory from first principles, without relying on explicit set-theoretic models. We expect that such a synthetic theory can make it easier to practice (∞-)category theory for non-experts and teach it to beginners; moreover, it allows for type theoretic interpretation and thus lends itself to formalization in proof assistants. This talk is based on ongoing collaborative work with D.-C. Cisinski, K. Nguyen and T. Walde.<p>
       </li>
-      <li><b>Bastiaan Cnossen</b> (University of Regensburg, Germany)
+      <li><b>Ambrus Kaposi</b> (E&ouml;tv&ouml;s Lor&aacute;nd University, Hungary) <br>
+        <b>Strictification of categories with families</b>
+
+<p>The syntax of type theory can be viewed as the initial model, e.g. the
+initial category with families (CwF) with certain type formers. This
+is a fruitful viewpoint: the initial model does not need to be
+constructed by hand, it is just a quotient inductive-inductive type;
+ad-hoc syntactic details don't hide the forest from the trees;
+normalisation is proven by a concise gluing argument. However,
+implementing normalisation for the initial model in a proof assistant
+was so far out of reach. The main reason for this is the so-called
+&ldquo;transport hell&rdquo;: conversion rules (equality constructors) are
+required to make some operations well-typed, then transports appear on
+these operations which have to be manipulated by hand. In contrast,
+lots of these equations are definitional in a raw term presentation of
+the syntax (because e.g. substitution is defined recursively on raw
+terms), making transports unnecessary.</p>
+
+<p>In this talk I will explain a technique which strictifies a contextual
+CwF with extra structure, making all substitution rules (and more)
+definitional. By strictification we do not mean turning isomorphisms
+into equalities, but turning propositional equalities into
+definitional ones. We do not turn beta/eta rules for type formers
+definitional, only the CwF equations and the substitution rules for
+each type former. The technique is based on the presheaf
+interpretation of higher-order abstract syntax and uses prefascist
+sets by Pédrot. I will demonstrate the practical usability of the
+technique by an Agda formalisation of the CwF-based syntax together
+with a canonicity construction.</p>
+
+        <p>This is joint work with Loïc Pujet.</p>
       </li>
-      <li><b>Ambrus Kaposi</b> (E&ouml;tv&ouml;s Lor&aacute;nd University, Hungary)
     </ul>
+
+     <h2>Contributed talks</h2>
+    <ul class="talklist">
+      <li><b>Gianluca Amato, Matteo Calosci, Marco Maggesi and Cosimo Perini Brogi</b><br>
+        <a href="abstracts/HoTTUF_2025_paper_18.pdf">Introducing Displayed Universal Algebra in UniMath</a>
+      </li>
+      <li><b>Fredrik Bakke</b><br>
+        <a href="abstracts/HoTTUF_2025_paper_16.pdf">The Cantor–Schröder–Bernstein Theorem in ∞-topoi</a>
+      </li>
+      <li><b>Evan Cavallo and Christian Sattler</b><br>
+        <a href="abstracts/HoTTUF_2025_paper_26.pdf">The algebraic small object argument as a saturation</a>
+      </li>
+      <li><b>Thierry Coquand, Jonas Höfer and Christian Sattler</b><br>
+        <a href="abstracts/HoTTUF_2025_paper_27.pdf">Progress report on constructive higher presheaf models of HoTT</a>
+      </li>
+      <li><b>Daniel Gratzer, Jonathan Weinberger and Ulrik Buchholtz</b><br>
+        <a href="abstracts/HoTTUF_2025_paper_24.pdf">The Yoneda embedding in simplicial type theory</a>
+      </li>
+      <li><b>Perry Hart and Kuen-Bang Hou Favonia</b><br>
+        <a href="abstracts/HoTTUF_2025_paper_9.pdf">A note on left adjoints preserving colimits in HoTT</a>
+      </li>
+      <li><b>Hugo Herbelin and Ramkumar Ramachandra</b><br>
+        <a href="abstracts/HoTTUF_2025_paper_28.pdf">About the construction of simplicial and cubical sets in indexed form: the case of degeneracies</a>
+      </li>
+      <li><b>Tom Jack and Axel Ljungström</b><br>
+        <a href="abstracts/HoTTUF_2025_paper_5.pdf">Towards computing the second stable homotopy group of spheres in HoTT</a>
+      </li>
+      <li><b>Philipp Joram and Niccolò Veltri</b><br>
+        <a href="abstracts/HoTTUF_2025_paper_1.pdf">Data Types with Symmetries via Action Containers</a>
+      </li>
+      <li><b>Krzysztof Kapulkin and Yufeng Li</b><br>
+        <a href="abstracts/HoTTUF_2025_paper_2.pdf">Extensional concepts in intensional type theory, revisited</a>
+      </li>
+      <li><b>Louise Leclerc</b><br>
+        <a href="abstracts/HoTTUF_2025_paper_11.pdf">Towards a type theory for (∞, ω)-categories</a>
+      </li>
+      <li><b>Titouan Leclercq and Andrew Swan</b><br>
+        <a href="abstracts/HoTTUF_2025_paper_7.pdf">Oracle modalities for higher dimensional types</a>
+      </li>
+      <li><b>Axel Ljungström and Loïc Pujet</b><br>
+        <a href="abstracts/HoTTUF_2025_paper_22.pdf">Hurewicz and Brouwer</a>
+      </li>
+      <li><b>Axel Ljungström</b><br>
+        <a href="abstracts/HoTTUF_2025_paper_23.pdf">Some properties of Whitehead products</a>
+      </li>
+      <li><b>Jem Lord</b><br>
+        <a href="abstracts/HoTTUF_2025_paper_21.pdf">Easy Parametricity</a>
+      </li>
+      <li><b>Hugo Moeneclaey and Thierry Coquand</b><br>
+        <a href="abstracts/HoTTUF_2025_paper_17.pdf">Chatelet's Theorem in Synthetic Algebraic Geometry</a>
+      </li>
+      <li><b>Andreas Nuyts</b><br>
+        <a href="abstracts/HoTTUF_2025_paper_3.pdf">Transpension for Cubes without Diagonals</a>
+      </li>
+      <li><b>Vojtěch Štěpančík</b><br>
+        <a href="abstracts/HoTTUF_2025_paper_4.pdf">Towards a formalization of Wärn's zigzag construction</a>
+      </li>
+      <li><b>Fedor Part, Valery Isaev and Sergey Sinchuk</b><br>
+        <a href="abstracts/HoTTUF_2025_paper_6.pdf">The Arend theorem prover</a>
+      </li>
+      <li><b>Johannes Schipp von Branitz and Ulrik Buchholtz</b><br>
+        <a href="abstracts/HoTTUF_2025_paper_25.pdf">Propositional Geometric Type Theory</a>
+      </li>
+      <li><b>Andrew Swan</b><br>
+        <a href="abstracts/HoTTUF_2025_paper_13.pdf">Computable and non-computable 2-groups in HoTT</a>
+      </li>
+      <li><b>Mark Williams</b><br>
+        <a href="abstracts/HoTTUF_2025_paper_10.pdf">Projective Presentations of Lex Modalities</a>
+      </li>
+     </ul>
 
     <h2>Schedule</h2>
     <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&ctz=Europe/Rome&dates=20250415/20250416&showNav=0&mode=AGENDA&showCalendars=0&showTabs=0&showDate=0&src=ZmE2NTQwMzRiOWMzYjAwZTIwOTIxYjgwMGQxYjI0YjQxMGFlYWViYTI3OWFhZTg5NmE1ZmQxMTc1YmMwMjVlM0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23333333" style="border:solid 2px #000" width="800" height="600" frameborder="0" scrolling="no"></iframe>
